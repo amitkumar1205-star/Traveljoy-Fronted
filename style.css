@@ -67,7 +67,9 @@ z-index: 2;
     display: flex;
     align-items: center;
 }
-
+.header .top-bar .container .right a{
+    color:#000
+}
 .header .top-bar .container .left div i,
 .header .top-bar .container .right a i {
     margin-right: 5px;
@@ -165,6 +167,9 @@ color: #fff;
     display: none;
 }
 @media (max-width: 768px) {
+    .header .top-bar .container .right a{
+        color:#000
+    }
     .header .nav-bar .logo{
         width: 15%;
     }
